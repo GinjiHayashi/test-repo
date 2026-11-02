@@ -1,0 +1,8 @@
+# テンプレートを使わない Issue の作成を許可するか
+blank_issues_enabled: false
+
+# テンプレート選択画面に表示する外部リンク（必要に応じてコメントを外して使用）
+# contact_links:
+#   - name: 質問・相談（Discussions）
+#     url: https://github.com/GinjiHayashi/test-repo/discussions
+#     about: 使い方の質問やアイデアの相談はこちらへ

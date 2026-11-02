@@ -1,0 +1,38 @@
+name: 📝 タスク
+description: リファクタリング、ドキュメント整備、雑務などの作業を登録する
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 目的
+      description: なぜこの作業が必要かを記載してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: todo
+    attributes:
+      label: やること
+      description: 作業内容をチェックリスト形式で記載してください
+      value: |
+        - [ ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了条件
+      description: どうなったら完了とみなすかを記載してください
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 補足情報
+      description: 関連する Issue / PR や参考リンクがあれば記載してください
+    validations:
+      required: false

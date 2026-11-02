@@ -1,0 +1,42 @@
+name: ✨ 機能要望
+description: 新しい機能や既存機能の改善を提案する
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提案ありがとうございます。「何を作るか」より先に「何に困っているか」を書いてもらえると検討しやすくなります。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解決したい課題・背景
+      description: どのような課題や不便があるかを記載してください
+      placeholder: "〇〇をするときに毎回 △△ が必要で手間がかかる"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 提案する解決策
+      description: どのような機能・変更があれば解決できるかを記載してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 検討した代替案
+      description: 他に検討した方法や、現在の回避策があれば記載してください
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 補足情報
+      description: 参考リンク、モックアップ、スクリーンショットなどがあれば記載してください
+    validations:
+      required: false
